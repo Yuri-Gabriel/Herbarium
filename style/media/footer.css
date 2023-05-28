@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+    footer div#content {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    footer div#content {
+        margin: 0 20px;
+    }
+}

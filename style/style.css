@@ -28,9 +28,9 @@ html, body {
     overflow-x: hidden;
 }
 
-header {  
+header {
+    width: calc(100vw - 15.5px);
     height: 100px;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,26 +61,22 @@ header nav a {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
-    font-weight: bold;
-    background-color: var(--VerdeClaro);
-    border: 1px solid black;
-    border-radius: 10px;
-    transition: transform .1s linear;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 main {
     margin-top: 100px;
 }
 
-
 main section {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main section#inicio {
@@ -166,20 +162,172 @@ main section#cardapio div {
 }
 
 main section#cardapio div h1 {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 2em;
     text-align: center;
-    margin: 50px 0;
+    margin: 100px 0 50px 0;
+}
+
+main section#cardapio div p {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main section#cardapio div a {
+    display: block;
+    margin: 50px auto;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--VerdeClaro);
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+main section#cardapio div a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
 main section#cardapio div img {
     width: 350px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
-main section#cardapio div p {
-    font-size: 1.3em;
+main section#pedido {
+    background-image: url("./img/pedido.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+main section#pedido div {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+main section#pedido div#title {
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 300px;
+}
+
+main section#pedido div#title h1 {
+    color: #FFFFFF;
+    font-size: 1.9em;
+}
+
+main section#pedido div#tutorial {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+main section#pedido div#tutorial ol li {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    list-style-position: inside;
+    text-indent: 5px;
+    padding: 10px;
+}
+
+main section#pedido div#link {
+    text-align: center;
+}
+
+main section#pedido div#link a {
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--VerdeClaro);
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .2s linear;
+    width: 250px;
+}
+
+main section#pedido div#link a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background-color: var(--VerdeClaro);
+}
+
+footer div#title {
+    padding: 50px 0 10px 0;
+}
+
+footer div#title h1 {
+    margin-left: 10px;
+}
+
+footer div#content {
+    padding: 10px;
+    display: flex;
+}
+
+footer div#content div {
+    width: 500px;
+    margin: 10px;
+}
+
+footer div#content div h3 {
+    font-weight: bold;
+}
+
+footer div#content div#social h3 {
+    width: 180px;
+}
+
+footer div#content div#social ul {
+    padding-left: 20px;
+}
+
+footer div#content div#social ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer div#content div#map iframe {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+footer div#creator {
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    background-color: var(--VerdeEscuro);
     color: #FFFFFF;
     text-align: center;
-    margin-top: 50px;
+}
+
+footer div#creator p a {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer div#creator p a:hover {
+    text-decoration: underline;
 }

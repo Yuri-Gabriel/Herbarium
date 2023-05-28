@@ -1,0 +1,14 @@
+@media screen and (min-width: 650px) {
+    header div#title {
+        margin-left: 10px;
+    }
+    header nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 100vw;
+    }
+}

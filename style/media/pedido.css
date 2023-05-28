@@ -1,0 +1,18 @@
+@media screen and (min-width: 700px) {
+    main section#pedido div#title {
+        
+        margin-left: 50px;
+    }
+
+    main section#pedido div#tutorial ol {
+        display: flex;
+    }
+
+    main section#pedido div#tutorial ol li {
+        margin: 0 10px;
+    }
+
+    main section#pedido div#link a {
+        
+    }
+}
