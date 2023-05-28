@@ -152,6 +152,7 @@ main section#sobre div p {
 
 main section#cardapio {
     background-color: #FFFFFF;
+    padding: 20px;
 }
 
 main section#cardapio div {
@@ -172,6 +173,8 @@ main section#cardapio div p {
     font-size: 1.3em;
     text-align: center;
     margin-top: 10px;
+    margin-right: 50px;
+    max-width: 600px;
 }
 
 main section#cardapio div a {

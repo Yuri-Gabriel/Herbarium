@@ -1,0 +1,11 @@
+@media screen and (min-width: 900px) {
+    main section#cardapio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main section#cardapio div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+}
