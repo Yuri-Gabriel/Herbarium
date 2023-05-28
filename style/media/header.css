@@ -1,9 +1,30 @@
-@media screen and (min-width: 650px) {
-    header div#title {
-        margin-left: 10px;
+@media screen and (max-width: 970px) {
+    header nav {
+        padding-left: 10%;
     }
+}
+
+@media screen and (max-width: 925px) {
+    header nav a {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    header nav {
+        padding-left: 5%;
+    }
+}
+
+@media screen and (min-width: 700px) {
     header nav {
         display: flex;
+    }
+} 
+
+@media screen and (min-width: 650px) {
+    header div#title {
+        margin-left: 50px;
     }
 }
 

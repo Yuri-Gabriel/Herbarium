@@ -50,17 +50,20 @@ header nav {
     width: 100%;
     display: none;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-;
     flex-wrap: wrap;
+    border: 1px solid black;
+    padding-left: 15%;
 }
 
 header nav a {
     margin: 2px 0;
     padding: 5px;
-    width: 180px;
+    width: 150px;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    border: 1px solid black;
 }
 
 header nav a:hover {
@@ -164,8 +167,7 @@ main section#cardapio div {
 
 main section#cardapio div h1 {
     color: #000000;
-    font-size: 2em;
-    text-align: center;
+    font-size: 3em;
     margin: 100px 0 50px 0;
 }
 
@@ -201,7 +203,7 @@ main section#cardapio div img {
     width: 350px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-right: 100px;
+    margin: auto;
 }
 
 main section#pedido {

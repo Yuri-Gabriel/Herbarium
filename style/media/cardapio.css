@@ -7,5 +7,15 @@
     main section#cardapio div:nth-child(2) {
         display: flex;
         justify-content: center;
+        width: 600px;
+    }
+
+    main section#cardapio div img {
+        width: 80%;
+    }
+
+    main section#cardapio div h1 {
+        align-self: flex-start;
+        margin-left: 50px;
     }
 }
