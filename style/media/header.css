@@ -1,26 +1,45 @@
-@media screen and (max-width: 970px) {
-    header nav {
-        padding-left: 10%;
+@media screen and (min-width: 750px) {
+    header div#header {
+        text-align: start;
+        flex-direction: row;
     }
-}
 
-@media screen and (max-width: 925px) {
+    header nav {
+        border: none;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 0;
+        top: 0;
+        position: relative;
+        background-color: transparent;
+    }
     header nav a {
-        width: 220px;
+        border: none;
+        margin: 2px 0;
+        padding: 5px;
+        width: 85px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    header nav a:nth-child(4) {
+        width: 155px;
+    }
+    header img {
+        display: none;
     }
 }
 
-@media screen and (max-width: 740px) {
-    header nav {
-        padding-left: 5%;
-    }
-}
-
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 925px) {
     header nav {
         display: flex;
     }
-} 
+}
 
 @media screen and (min-width: 650px) {
     header div#title {
