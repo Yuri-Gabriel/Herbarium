@@ -1,19 +1,24 @@
 @media screen and (min-width: 750px) {
+   
+    
     header div#header {
         text-align: start;
         flex-direction: row;
     }
 
     header nav {
+        z-index: 1;
         border: none;
         width: 100%;
+        height: 40px;
+        display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
         flex-direction: row;
         margin-left: 0;
-        top: 0;
         position: relative;
+        top: 0;
         background-color: transparent;
     }
     header nav a {
@@ -21,10 +26,15 @@
         margin: 2px 0;
         padding: 5px;
         width: 85px;
+        height: 20px;
         text-align: center;
         color: #FFFFFF;
-        text-decoration: none;
         cursor: pointer;
+        text-decoration: none;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
     }
 
     header nav a:nth-child(4) {
