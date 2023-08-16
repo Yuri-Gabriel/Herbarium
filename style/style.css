@@ -175,6 +175,7 @@ main section#sobre div p {
     color: #FFFFFF;
     text-align: center;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 main section#cardapio {
@@ -234,7 +235,7 @@ main section#pedido {
     background-image: url("./img/pedido.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-attachment: fixed;
     padding: 150px 0;
 }
