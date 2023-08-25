@@ -1,0 +1,26 @@
+{
+    "Arroz": {
+        "Ingredientes": [
+            "Arroz"
+        ],
+        "Modo de preparo": [
+            "Faça arroz"
+        ]
+    },
+    "Hamburguer": {
+        "Ingredientes": [
+            "Arroz"
+        ],
+        "Modo de preparo": [
+            "Faça arroz"
+        ]
+    },
+    "Moqueca": {
+        "Ingredientes": [
+            "Arroz"
+        ],
+        "Modo de preparo": [
+            "Faça arroz"
+        ]
+    }
+}

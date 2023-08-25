@@ -1,5 +1,6 @@
 var menuBarIsOpen = false;
 var windowWidth = window.innerWidth;
+localStorage.clear();
 
 const closeMenuImg = "./style/img/close.png";
 const openMenuImg = "./style/img/menu.png";
@@ -53,3 +54,19 @@ const CloseMenu = () => {
     menuBarIsOpen = true;
 }
 
+const btnArroz = document.querySelector("button#Arroz");
+const btnHamburguer = document.querySelector("button#Hamburguer");
+const btnMoqueca = document.querySelector("button#Moqueca");
+
+btnArroz.addEventListener("click", () => {
+    localStorage.setItem("receita", "arroz")
+    window.location = "../receita.html";
+});
+btnHamburguer.addEventListener("click", () => {
+    localStorage.setItem("receita", "hamburguer");
+    window.location = "../receita.html";
+});
+btnMoqueca.addEventListener("click", () => {
+    localStorage.setItem("receita", "moqueca");
+    window.location = "../receita.html";
+});

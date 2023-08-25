@@ -299,6 +299,84 @@ main section#pedido div#link a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
+section#receita {
+    background-color: var(--VerdeEscuro);
+}
+
+section#receita > div {
+    width: 100%;
+}
+
+section#receita > div:nth-child(1) {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+section#receita > div:nth-child(1) h1 {
+    font-size: 1.9em;
+    color: #FFFFFF;
+}
+
+section#receita div#comidas {
+    height: 400px;
+    display: flex;
+}
+
+section#receita div#comidas > div {
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    transition: all 0.2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+section#receita div#comidas > div:hover {
+    flex: 2;
+}
+
+section#receita div#comidas > div:nth-child(1) {
+    background-image: url("./img/Arroz.jpg");
+} 
+
+section#receita div#comidas > div:nth-child(2) {
+    background-image: url("./img/Hamburguer.jpg");
+    background-position: center bottom;
+}
+section#receita div#comidas > div:nth-child(2):hover {
+    background-position: center center;
+} 
+
+section#receita div#comidas > div:nth-child(3) {
+    background-image: url("./img/Moqueca.jpg");
+} 
+
+section#receita div#comidas > div button {
+    height: min-content;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: var(--VerdeClaro);
+    border-radius: 10px;
+    transition: all 0.1s linear;
+}
+
+section#receita div#comidas > div button:hover {
+    transform: scale(1.1);
+}
+
+section#receita div#comidas > div button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 footer {
     background-color: var(--VerdeClaro);
 }
