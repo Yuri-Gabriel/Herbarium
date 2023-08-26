@@ -277,26 +277,23 @@ main section#pedido div#tutorial ol li {
 
 main section#pedido div#link {
     text-align: center;
+    
 }
 
-main section#pedido div#link a {
+main section#pedido div#link label {
     display: block;
     margin: 50px auto;
     padding: 10px;
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
-    background-color: var(--VerdeClaro);
+    background-color: #FFFFFF;
     border: 1px solid black;
     border-radius: 10px;
     transition: .2s linear;
     width: 250px;
-}
-
-main section#pedido div#link a:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    
 }
 
 section#receita {
