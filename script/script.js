@@ -60,13 +60,13 @@ const btnMoqueca = document.querySelector("button#Moqueca");
 
 btnArroz.addEventListener("click", () => {
     localStorage.setItem("receita", "Arroz Tailandês")
-    window.location = "../pages/receita.html";
+    window.location = "./receita.html";
 });
 btnHamburguer.addEventListener("click", () => {
     localStorage.setItem("receita", "Hamburguer");
-    window.location = "../pages/receita.html";
+    window.location = "./receita.html";
 });
 btnMoqueca.addEventListener("click", () => {
     localStorage.setItem("receita", "Moqueca de banana");
-    window.location = "../pages/receita.html";
+    window.location = "./receita.html";
 });

@@ -73,7 +73,7 @@ const receitas = {
 
 const receitaEscolhida = localStorage.getItem("receita");
 if (receitaEscolhida == null || !receitaEscolhida) {
-    window.location = "../index.html";
+    window.location = "./index.html";
 }
 
 const title = document.querySelector("header div h2");
