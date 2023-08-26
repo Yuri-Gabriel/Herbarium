@@ -59,14 +59,14 @@ const btnHamburguer = document.querySelector("button#Hamburguer");
 const btnMoqueca = document.querySelector("button#Moqueca");
 
 btnArroz.addEventListener("click", () => {
-    localStorage.setItem("receita", "arroz")
+    localStorage.setItem("receita", "Arroz Tailandês")
     window.location = "../receita.html";
 });
 btnHamburguer.addEventListener("click", () => {
-    localStorage.setItem("receita", "hamburguer");
+    localStorage.setItem("receita", "Hamburguer");
     window.location = "../receita.html";
 });
 btnMoqueca.addEventListener("click", () => {
-    localStorage.setItem("receita", "moqueca");
+    localStorage.setItem("receita", "Moqueca de banana");
     window.location = "../receita.html";
 });

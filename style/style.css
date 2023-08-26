@@ -29,7 +29,7 @@ html, body {
 }
 
 header {
-    width: calc(100vw - 15.5px);
+    width: calc(100vw );
     z-index: 0;
     height: 100px;
     display: flex;
